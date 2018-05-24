@@ -1,0 +1,79 @@
+#Notas de Clase
+
+##COMANDOS TERMINAL:
+
+- **touch**  crear archivos (importante poner su extension de tipo de archivo)
+- **mkdir** crear directorios o carpetas
+- **ls** listar archivos y carpetas
+- **ls -a** mostrar adicionalmente directorios ocultos
+- **clear** limpiar consola
+- **pwd** mostrar ruta
+- **cd** cambiar de directorios
+- **cd ..** regresar al directorio anterior
+- **rm** remover archivos
+- **rmdir** remover directorios vacios
+- **rm - r** borrar directorios completos
+- **mv** mover archivos (archivo.extencion - ruta)
+- **mv** renombrar arcivos (archivo.ext - nuevomonbre.ext)
+- **cp** copiar archivos (archivo.txt - ruta)
+
+
+##EJEMPLOS DE IDENTACION:
+
+1. Primer elemento
+    - Primer Objeto
+    - Segundo Objeto
+      - Tercer nivel
+
+2. Segundo elemento
+
+
+##Otras caracterisicas
+
+>¨esto es una cita¨
+
+~ 3 de estos simbolos abren un bloquie de codigo, de igual forma se debe cerrar el bloque con 3 simbolos iguales. Ejemplo:
+
+~~~
+<html>
+
+</html>
+~~~
+
+comilla simple es para poner codigo de una sola linea:
+
+`function startLearning();`
+
+podemos poner link con corchetes y adelante entre parentesis la liga
+
+[este es un link](https://dillinger.io/)
+
+para imagenes:
+
+![mi imagen](http://jsequeiros.com/sites/default/files/imagen-cachorro-comprimir.jpg)  
+
+
+## GIT
+
+comando para iniciar repositorio: **git init** (dentro de la carpeta donde queremos tenerlo)
+
+comando para checar estado: **git status**
+
+comando para seguir un archivo y agregarlo: **git add** + archivo
+
+comando para hacer checkpoint: **git commit**
+
+comando para checar los commits que hemos hecho:  **git log**
+
+comando para movernos a dif git: **git checkout** + hash
+
+comando para regresar a la cabeza de la rama: **git checkout HEAD**
+
+para crear una nueva linea de tiempo: **git branch** + nombre de la nueva branch
+
+
+*-m* para agregar notas
+
+las ramas del repositorio se definiran como ¨branch¨
+
+¨commit¨ son los checkpoint
