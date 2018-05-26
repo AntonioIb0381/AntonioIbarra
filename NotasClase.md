@@ -4,13 +4,18 @@
 
 - **touch**  crear archivos (importante poner su extension de tipo de archivo)
 - **mkdir** crear directorios o carpetas
+- bandera **-p** crea directiorios madre si no existen
 - **ls** listar archivos y carpetas
 - **ls -a** mostrar adicionalmente directorios ocultos
+- **ls -l** igual a **ll** directorio en forma de lista
 - **clear** limpiar consola
 - **pwd** mostrar ruta
 - **cd** cambiar de directorios
 - **cd ..** regresar al directorio anterior
 - **rm** remover archivos
+- **echo** entre comillas texto que queremos agregar a un archivo + archivo.ext
+- **>** redireccionar
+- **cat** muestra el contenido de un archivo
 - **rmdir** remover directorios vacios
 - **rm - r** borrar directorios completos
 - **mv** mover archivos (archivo.extencion - ruta)
@@ -55,13 +60,16 @@ para imagenes:
 
 ## GIT
 
+**github: antonioib0381@gmail.com**
+**pswd: Sain2309**
+
 comando para iniciar repositorio: **git init** (dentro de la carpeta donde queremos tenerlo)
 
 comando para checar estado: **git status**
 
 comando para seguir un archivo y agregarlo: **git add** + archivo
 
-comando para hacer checkpoint: **git commit**
+comando para hacer checkpoint: **git commit** + **-m** y entre comillas agregar comments
 
 comando para checar los commits que hemos hecho:  **git log**
 
@@ -71,9 +79,12 @@ comando para regresar a la cabeza de la rama: **git checkout HEAD**
 
 para crear una nueva linea de tiempo: **git branch** + nombre de la nueva branch
 
+las ramas del repositorio se definiran como **branch**
 
-*-m* para agregar notas
+**commit** son los checkpoint
 
-las ramas del repositorio se definiran como ¨branch¨
+**git remote add origin**  + url para agregar el repo remoto
 
-¨commit¨ son los checkpoint
+**git remote -v** verificar repositorios remotos
+
+**git push -u origin master** primera vez para sincronizar repo remoto
