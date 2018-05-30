@@ -63,6 +63,8 @@ para imagenes:
 **github: antonioib0381@gmail.com**
 **pswd: Sain2309**
 
+same 4 Gitlab
+
 comando para iniciar repositorio: **git init** (dentro de la carpeta donde queremos tenerlo)
 
 comando para checar estado: **git status**
@@ -88,3 +90,44 @@ las ramas del repositorio se definiran como **branch**
 **git remote -v** verificar repositorios remotos
 
 **git push -u origin master** primera vez para sincronizar repo remoto
+
+
+##Gitlab  **crear repo privado**
+
+## html
+
+**encabezado:**
+
+<!DOCTYPE html>
+<html>
+
+</html>
+
+
+**dentro de head, info y encabezado del navegador**
+<head>
+</head>
+
+**para usar caracteres especiales y acentos: siempre dentro del emcabezado**
+<meta charset="utf-8">
+
+**cuerpo:**
+
+<body>
+    <h3>Hola a todos, buen día ñaca ñaca</h3>
+    <p> este es un parrafo </p>
+</body>
+
+**lista con viñetas NO ordenada**
+        <ul>
+        <li>Uno</li>
+        <li>Dos</li>
+        <li>Tres</li>
+        </ul>
+
+**lista con viñetas ordenada**
+                <ol>
+                <li>Uno</li>
+                <li>Dos</li>
+                <li>Tres</li>
+                </ol>        
